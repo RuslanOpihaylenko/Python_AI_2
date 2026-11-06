@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['Bulkers', 'Car Carrier', 'Container Ship', 'Cruise', 'Recreational', 'Sailboat', 'Tug']
+
+roboflow:
+  workspace: usna-dcxiv
+  project: ships-4od7b
+  version: 15
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/usna-dcxiv/ships-4od7b/dataset/15

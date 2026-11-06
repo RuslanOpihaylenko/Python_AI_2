@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['dog']
+
+roboflow:
+  workspace: s-workspace-uo1pf
+  project: dogs_project-iiet8
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/s-workspace-uo1pf/dogs_project-iiet8/dataset/1
